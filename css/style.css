@@ -1,3 +1,63 @@
 body {
   background-color: #446573;
+  height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: rgba(143, 143, 143, 0.4);
+  height: 55px;
+  z-index: 1;
+}
+
+.icon {
+  margin-left: 24px;
+}
+
+.desc-icon {
+  padding-left: 10px;
+  color: white;
+}
+
+.reserve-button {
+  background-color: #446573;
+  border: none;
+  padding: 13px 28px;
+  color: white;
+  margin-right: 35px;
+  margin-left: 28px;
+}
+
+.banner-section {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  position: absolute;
+  width: 100%;
+}
+
+.container-input {
+  z-index: 1;
+  position: relative;
+  top: 331px;
+}
+
+.input {
+  
+  padding: 11px 13px 11px 10px;
+
+  padding-left: 10px;
+}
+
+.submit-button {
+  padding: 12px 30px;
+  color: white;
+  background-color: #446573;
+  border: none;
 }
