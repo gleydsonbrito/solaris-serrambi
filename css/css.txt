@@ -1,3 +1,0 @@
-Aqui devem ficar os arquivos de CSS
-Devemos usar a forma de componetes por exemplo:
-header.css trata apenas do css do header, etc.
