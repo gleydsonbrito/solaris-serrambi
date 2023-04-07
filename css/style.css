@@ -229,15 +229,15 @@ body {
 }
 
 .box {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: #F3F3F3;
   width: 95%;
 }
 
 .description {
   padding: 91px 64px;
-  width: 40%;
+
 }
 
 .description h2 {
@@ -259,5 +259,5 @@ body {
 }
 
 .banner-section3{
-  width: 50%;
+  width: 100%;
 }
