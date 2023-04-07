@@ -42,7 +42,8 @@ body {
 }
 .logo{
   align-self: flex-start;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-left: 25px;
 }
 
 .title{
@@ -82,3 +83,43 @@ body {
   background-color: #446573;
   border: none;
 }
+
+.description-section {
+  background-color: white;
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-rule {
+  width: 96px;
+  border: 3px solid #446573;
+}
+
+.top-description {
+  width: 418px;
+  height: 57px;
+  margin-top: 65px;
+  text-align: center;
+  line-height: 29px;
+  color: #446573;
+  font-family: 'Kaisei Tokumin', serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.description-text {
+  width: 418px;
+  height: 79px;
+  margin-top: 30px;
+  margin-bottom: 32px;
+  text-align: center;
+  color: #A2A2A2;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.
