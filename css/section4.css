@@ -1,0 +1,52 @@
+.section4 {
+    background-color: white;
+}
+
+.section4-pic-one {
+    padding-top: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-rule2 {
+    width: 96px;
+    border: 1px solid #446573;
+}
+
+.section4-pic-one div {
+    width: 471px;
+    padding-left: 132px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 23px;
+}
+
+.section4-pic-one span {
+    color: #446573;
+    font-weight: 600;
+}
+
+.section4-pic-two {
+    padding-top: 65px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.section4-pic-two div {
+    width: 471px;
+    padding-right: 132px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 23px;
+}
+
+.section4-pic-two span {
+    color: #446573;
+    font-weight: 600;
+}
