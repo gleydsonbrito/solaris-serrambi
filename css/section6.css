@@ -1,0 +1,54 @@
+.explore-section {
+    background-color: white;
+    padding-top: 246px;
+    display: flex;
+    justify-content: center;
+}
+
+.environments {
+    padding-left: 70px;
+    padding-right: 90px;
+    font-family: 'Karla', sans-serif;
+    color: #446573;
+}
+
+.environments p {
+    padding-bottom: 70px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.environments span {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.environments li {
+    display: flex;
+    padding-bottom: 24px;
+}
+
+.environments a {
+    display: flex;
+    align-items: center;
+    color: #446573;
+    text-decoration: none;
+}
+
+.environments a:hover {
+    font-weight: 700;
+}
+
+.horizontal-rule3 {
+    width: 28px;
+    display: none;
+    border: 2px solid #446573;
+}
+
+.environments li :hover  > hr{
+    display: flex;
+}
+
+.environments-pics img {
+    padding-left: 10px;
+}
