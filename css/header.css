@@ -1,0 +1,34 @@
+body {
+  background-color: #446573;
+  height: 100vh;
+  font-family: 'Kanit', sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: rgba(143, 143, 143, 0.4);
+  height: 55px;
+  z-index: 10;
+}
+
+.icon {
+  margin-left: 24px;
+}
+
+.desc-icon {
+  padding-left: 10px;
+  color: white;
+}
+
+.reserve-button {
+  background-color: #446573;
+  border: none;
+  padding: 13px 28px;
+  color: white;
+  margin-right: 35px;
+  margin-left: 28px;
+}
