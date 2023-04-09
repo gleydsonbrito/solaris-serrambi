@@ -1,0 +1,71 @@
+.description-section {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .horizontal-rule {
+    width: 96px;
+    border: 3px solid #446573;
+  }
+  
+  .top-description {
+    width: 418px;
+    height: 57px;
+    margin-top: 65px;
+    text-align: center;
+    line-height: 29px;
+    color: #446573;
+    font-family: 'Kaisei Tokumin', serif;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  
+  .description-text {
+    width: 418px;
+    height: 79px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    text-align: center;
+    color: #a2a2a2;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .description-img-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .informative-text {
+    background-color: #f3f3f3;
+    display: flex;
+    width: 1210px;
+    justify-content: center;
+    padding-top: 89px;
+  }
+  
+  .informative-text div {
+    width: 418px;
+    height: 58px;
+    margin-right: 40px;
+    color: #446573;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 23px;
+  }
+  
+  .informative-text div div {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #a2a2a2;
+    width: 418px;
+    height: 99px;
+    margin-top: 9px;
+  }

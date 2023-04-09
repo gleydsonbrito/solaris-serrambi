@@ -1,0 +1,42 @@
+.section3 {
+    padding-top: 63px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F3F3F3;
+    width: 95%;
+  }
+  
+  .description {
+    padding: 91px 64px;
+  }
+  
+  .description h2 {
+    margin-bottom: 20px;
+    color: #446573;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .description p {
+    margin-bottom: 20px;
+    color: #a2a2a2;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .description button {
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  
+  .banner-section3{
+    width: 100%;
+  }
+  
