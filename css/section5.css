@@ -1,4 +1,5 @@
 .section5 {
+    width: 100%;
     background-color: white;
 }
 
@@ -8,11 +9,8 @@
 }
 
 .facilites {
+    text-align: center;
     padding-top: 65px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     font-family: 'Karla', sans-serif;
     color: #446573;
     line-height: 40px;
