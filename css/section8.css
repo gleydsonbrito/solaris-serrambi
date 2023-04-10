@@ -1,0 +1,26 @@
+.section-platforms {
+  width: 100%;
+  background-color: white;
+  padding-top: 80px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.title-platforms{
+  color: rgba(68, 101, 115, 1);
+  line-height: 1.5;
+}
+
+.platforms {
+  width: 50%;
+  border-bottom: 3px solid rgba(68, 101, 115, 0.2);
+  border-top: 3px solid rgba(68, 101, 115, 0.2);
+  text-align: center;
+}
+
+.icon {
+  margin: 35px 19px;
+}

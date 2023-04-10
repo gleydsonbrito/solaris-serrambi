@@ -1,0 +1,16 @@
+.localization {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  background-color: white;
+  gap: 40px;
+}
+
+.localization h2, p{
+  align-self : flex-start;
+  color: rgba(68, 101, 115, 1);
+  line-height: 20px;
+}
+
