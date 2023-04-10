@@ -20,7 +20,7 @@ body {
 }
 
 .desc-icon {
-  padding-left: 10px;
+  align-self: center;
   color: white;
 }
 
