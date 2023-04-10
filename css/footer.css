@@ -1,0 +1,72 @@
+
+
+.footer-logo {
+  padding-top: 42px;
+  padding-left: 69px;
+}
+
+.about-us {
+  display:flex ;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  color: white;
+}
+
+.about-us-text h2,p,img {
+  padding-bottom: 18px;
+}
+
+.about-us-text h2 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.about-us-text p {
+  font-size: 12px;
+}
+
+.about-us-text img {
+  padding-right: 5px;
+}
+
+.about-us a {
+  display: flex;
+  line-height: 40px;
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.about-us button {
+    padding: 19px 42px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+}
+
+.footer-end {
+  color: #D4D4D4;
+  display: flex;
+  padding:20px 69px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 180px;
+  font-family: 'Karla', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer-end a {
+  text-decoration: none;
+  color: #D4D4D4;
+}
+
+.footer-end img {
+  height: 12px;
+  width: 22px;
+}
