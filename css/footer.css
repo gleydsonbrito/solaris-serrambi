@@ -1,5 +1,4 @@
 
-
 .footer-logo {
   padding-top: 42px;
   padding-left: 55px;
@@ -13,12 +12,9 @@
   color: white;
 }
 
-<<<<<<< HEAD
-.about-us-text h2 , p ,  {
-=======
+
 .about-us-text h2 {
->>>>>>> dd3301b435a7199ad837a43ab3385dc0a1670376
-  padding-bottom: 18px;
+padding-bottom: 18px;
 }
 
 .about-us-text h2 {
@@ -73,4 +69,15 @@
 .footer-end img {
   height: 12px;
   width: 22px;
+}
+=======
+footer  {
+    padding-top: 42px;
+    padding-left: 69px;
+    height: 515px;
+}
+
+.about-us {
+    display: flex;
+    
 }
