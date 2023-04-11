@@ -35,7 +35,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 62px;
-    font-family: 'Kaisei Tokumin', serif;
+    font-family: 'Kanit', sans-serif;
   }
   
   .categories h2 {
@@ -46,7 +46,7 @@
   }
   
   .categories a {
-    color: black;
+    color: #a2a2a2;
     font-size: 12px;
     text-decoration: none;
   }
