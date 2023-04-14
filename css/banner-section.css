@@ -1,4 +1,5 @@
 .banner-section {
+    
     height: 50%;
     position: relative;
     background-image: url('../assets/background-header.png');
@@ -12,8 +13,8 @@
   }
   .logo {
     align-self: flex-start;
-    margin-top: 15px;
-    margin-left: 25px;
+    margin-top: 3%;
+    margin-left: 3%;
   }
   
   .title {

@@ -1,3 +1,8 @@
+footer  {
+  padding-top: 42px;
+  padding-left: 50px;
+  height: 515px;
+}
 
 .footer-logo {
   padding-top: 42px;
@@ -69,12 +74,6 @@ padding-bottom: 18px;
 .footer-end img {
   height: 12px;
   width: 22px;
-}
-=======
-footer  {
-    padding-top: 42px;
-    padding-left: 69px;
-    height: 515px;
 }
 
 .about-us {

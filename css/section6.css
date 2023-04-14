@@ -3,11 +3,11 @@
     background-color: white;
     padding-top: 246px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .environments {
-    padding-left: 70px;
+    padding-left: 0;
     padding-right: 90px;
     font-family: 'Karla', sans-serif;
     color: #446573;
