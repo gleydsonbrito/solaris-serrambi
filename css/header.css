@@ -15,9 +15,16 @@ body {
   z-index: 10;
 }
 
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  
 .icon {
   margin-left: 24px;  
 }
+
 
 .desc-icon {
   align-self: center;
