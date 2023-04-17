@@ -6,8 +6,9 @@ body {
 
 .wpp-icon {
   position: fixed;
-  bottom: 20px;
-  right: 20px
+  bottom: 30px;
+  right: 30px;
+  -webkit-filter: drop-shadow(2px 3px 3px gray);
 }
 
 .navbar {
