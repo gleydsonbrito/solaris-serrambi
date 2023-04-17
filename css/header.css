@@ -4,6 +4,12 @@ body {
   font-family: 'Kanit', sans-serif;
 }
 
+.wpp-icon {
+  left: 96%;
+  top: 91%;
+  position: fixed;
+}
+
 .navbar {
   width: 100%;
   position: absolute;
