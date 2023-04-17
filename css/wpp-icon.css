@@ -1,0 +1,6 @@
+.wpp-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    -webkit-filter: drop-shadow(2px 3px 3px gray);
+}  
