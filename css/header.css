@@ -5,8 +5,8 @@ body {
 }
 
 .wpp-icon {
-  left: 96%;
-  top: 91%;
+  bottom: 20px;
+  right: 20px
   position: fixed;
 }
 
