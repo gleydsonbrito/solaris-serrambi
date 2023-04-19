@@ -39,14 +39,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
   
   .informative-text {
     background-color: #f3f3f3;
     display: flex;
-    width: 1210px;
+    width: 100%;
     justify-content: center;
     padding-top: 89px;
+    flex-wrap: wrap;
   }
   
   .informative-text div {
