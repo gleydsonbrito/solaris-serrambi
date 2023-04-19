@@ -17,19 +17,23 @@ body {
 
 .link{
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding:0 10px;
   text-decoration: none;
 }  
 
-.link :hover {
-  border-radius: 50px;
-  transform: scale(1.1) ;
-  transition: 1s;
+.link:hover{
+  background-color : rgba(255,255,225,0.2);
 }
 
 .icon {
-  margin-left: 24px;  
+  margin-right: 9px;  
+}
+
+.icon-sm {
+
 }
 
 .desc-icon {
