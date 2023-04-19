@@ -16,11 +16,11 @@
 
 .platforms {
   width: 50%;
-  border-bottom: 3px solid rgba(68, 101, 115, 0.2);
-  border-top: 3px solid rgba(68, 101, 115, 0.2);
+  border-bottom: 3px solid rgba(68, 101, 115, .5);
+  border-top: 3px solid rgba(68, 101, 115, .5);
   text-align: center;
 }
 
-.icon {
+.icon-apps {
   margin: 35px 19px;
 }
