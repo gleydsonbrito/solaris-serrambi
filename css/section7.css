@@ -22,11 +22,8 @@
 .avaliations {
   display: flex;
   align-items: center;
-  border-radius: 10px;
   margin-top: 40px;
-  background-color: #ffffff;
   width: 80%;
-  padding: 43px 100px;
 }
 .arrow-blue {
   padding: 0 20px;
