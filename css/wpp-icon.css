@@ -3,7 +3,8 @@
     bottom: 30px;
     right: 15px;
     -webkit-filter: drop-shadow(2px 3px 3px gray);
-    transition: 0.5s;
+    transition: 0.3s;
+    z-index: 3;
   }
   
   .wpp-icon:hover {
