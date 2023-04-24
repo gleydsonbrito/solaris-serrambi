@@ -57,10 +57,14 @@
   }
   
   .img-grid {
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 45px;
     margin-top: 58px;
     grid-auto-flow: dense;
   }
-  
+
+  .img-grid img{
+    width: 100%;
+  }

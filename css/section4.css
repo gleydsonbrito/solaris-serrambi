@@ -6,6 +6,8 @@
 .section4-pic-one {
     padding-top: 65px;
     display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -16,12 +18,12 @@
 
 .section4-pic-one div {
     width: 471px;
-    padding-left: 132px;
     text-align: center;
     font-family: 'Karla', sans-serif;
     font-size: 20px;
     font-weight: 200;
     line-height: 23px;
+    flex-grow: 1;
 }
 
 .section4-pic-one span {
@@ -32,14 +34,13 @@
 .section4-pic-two {
     padding-top: 65px;
     display: flex;
+    flex-wrap: wrap-reverse;
     justify-content: flex-end;
     align-items: center;
-    
 }
 
 .section4-pic-two div {
-    width: 471px;
-    padding-right: 132px;
+    flex-grow: 1;
     text-align: center;
     font-family: 'Karla', sans-serif;
     font-size: 20px;
