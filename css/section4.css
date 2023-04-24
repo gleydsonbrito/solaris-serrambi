@@ -6,6 +6,8 @@
 .section4-pic-one {
     padding-top: 65px;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -16,7 +18,7 @@
 
 .section4-pic-one div {
     width: 471px;
-    padding-left: 132px;
+    margin-right: 10px;
     text-align: center;
     font-family: 'Karla', sans-serif;
     font-size: 20px;

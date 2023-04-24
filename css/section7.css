@@ -22,6 +22,7 @@
 .avaliations {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 40px;
   width: 80%;
 }
@@ -53,7 +54,7 @@
 }
 
 .comment-text {
-  width: 100%;
+  width: 90%;
   line-height: 1.5;
 }
 
