@@ -1,5 +1,4 @@
 .banner-section {
-    
     height: 50%;
     position: relative;
     background-image: url('../assets/background-header.png');
@@ -40,16 +39,37 @@
     z-index: 1;
     position: relative;
   }
+
+.input {
+  outline: none;
+  border: none;
+  padding: 11px 13px 11px 10px;
+  padding-left: 10px;
+  background: linear-gradient(to right, #FFF 50%, #446573 50%);
+  background-position: left;
+  background-size: 200% 100%;         
+  transition: .3s;
+}
+
+.input:hover{
+    background-position: right;
+}
+
+input:hover::placeholder{
+    color: #FFF;
+}
+
+.input:focus {
+    background-position: right;
+}
+
+input:focus::placeholder{
+  color: #FFF;
+}
   
-  .input {
-    outline: none;
-    padding: 11px 13px 11px 10px;
-    padding-left: 10px;
-  }
-  
-  .submit-button {
-    padding: 12px 30px;
-    color: white;
-    background-color: #446573;
-    border: none;
-  }
+.submit-button {
+  padding: 12px 30px;
+  color: white;
+  background-color: #446573;
+  border: none;
+}
