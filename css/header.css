@@ -29,25 +29,18 @@ body {
 }
 
 .icon {
-  margin-right: 9px;  
+  margin-right: 9px;
 }
 
-.icon-sm-instagram:hover {
-    background-image: radial-gradient(
-      circle at 30% 107%,
-      #fdf497 0%,
-      #fdf497 5%,
-      #fd5949 45%,
-      #d6249f 60%,
-      #285aeb 90%
-    );
-    outline-color: #a02d76;
-    border-radius: 7.3px;
+.icon-sm{
+  width: 24px;
+  height: 24px;
 }
 
 .desc-icon {
   align-self: center;
   color: white;
+
 }
 
 .reserve-button {
