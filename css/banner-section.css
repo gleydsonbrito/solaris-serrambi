@@ -43,6 +43,7 @@
 .input {
   outline: none;
   border: none;
+  color: #FFF;
   padding: 11px 13px 11px 10px;
   padding-left: 10px;
   background: linear-gradient(to right, #FFF 50%, #446573 50%);
