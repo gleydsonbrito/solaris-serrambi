@@ -69,8 +69,13 @@ input:focus::placeholder{
 }
   
 .submit-button {
-  padding: 12px 30px;
-  color: white;
-  background-color: #446573;
   border: none;
+  padding: 12px 30px;
+  background-color: #446573c5 ;
+  color: white;
+  transition: .3s;
+}
+
+.submit-button:hover {
+  background-color: #446573 ;
 }
