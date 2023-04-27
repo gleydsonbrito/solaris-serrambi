@@ -19,3 +19,22 @@ instagramContainer.addEventListener("mouseenter", function (){
 instagramContainer.addEventListener("mouseleave", function (){
   iconInstagram.src = "./assets/icon-instagram.png"
 })
+
+const reserveButton = document.querySelector(".reserve-button")
+
+reserveButton.addEventListener("mouseenter", function (){
+  reserveButton.style.backgroundColor = "#FFF";
+  reserveButton.style.height = "40px";
+  reserveButton.style.width = "40px";
+  reserveButton.style.padding = "0";
+  reserveButton.style.borderRadius = "50%";
+
+  reserveButton.innerHTML = "";
+
+  const arrowDown = document.createElement("img")
+  reserveButton.appendChild(arrowDown)
+  arrowDown.src = "./assets/botao-circular-preto-de-seta-para-baixo.png"
+  arrowDown.style.height = "100%"
+  arrowDown.style.width = "100%"
+  
+})

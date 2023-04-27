@@ -50,4 +50,6 @@ body {
   color: white;
   margin-right: 5%;
   margin-left: 1%;
+  transition: .6s;
 }
+
