@@ -50,19 +50,42 @@ body {
   color: white;
   margin-right: 5%;
   margin-left: 1%;
-  transition: .6s;
+  transition: .7s;
 }
 
 .float-buttons {
   display: none;
   position: fixed;
   width: 40px;
-  height: 40px;
+  height: fit-content;
   right: 63px;
   top: 55px;
+}
+
+.float-buttons > a {
+  margin: 5px 0;
 }
 
 .float-buttons > a > img {
   height: 100%;
   width: 100%;
+}
+
+.decolar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.b{
+  animation-name: drop-down-icons-animation;
+  animation-delay: 0.1s;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes drop-down-icons-animation {
+  from {top: -50px}
+  to {top: 58px}
 }
