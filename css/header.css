@@ -53,3 +53,16 @@ body {
   transition: .6s;
 }
 
+.float-buttons {
+  display: none;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  right: 63px;
+  top: 55px;
+}
+
+.float-buttons > a > img {
+  height: 100%;
+  width: 100%;
+}

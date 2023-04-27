@@ -37,4 +37,9 @@ reserveButton.addEventListener("mouseenter", function (){
   arrowDown.style.height = "100%"
   arrowDown.style.width = "100%"
   
+  const FloatMenu = document.querySelector(".float-buttons");
+  FloatMenu.style.display = "flex"
+  FloatMenu.style.flexDirection = "column"
+  
 })
+
