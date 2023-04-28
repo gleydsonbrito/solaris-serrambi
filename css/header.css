@@ -79,13 +79,30 @@ body {
 }
 
 .b{
-  animation-name: drop-down-icons-animation;
-  animation-delay: 0.1s;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
+  position: relative;
+  animation: drop-down-icons-animation .8s ease-out;
 }
 
 @keyframes drop-down-icons-animation {
-  from {top: -50px}
-  to {top: 58px}
+  from {
+    top: -54px;
+  }
+  to {
+    top: 5px;
+  }
+}
+
+.c {
+  position: relative;
+  animation: drop-up-icons-animation .8s ease-out;
+}
+
+@keyframes drop-up-icons-animation {
+  from {
+    top: 5px
+  }
+  to {
+    top:-54px;
+    display: none;
+  }
 }

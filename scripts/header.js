@@ -25,6 +25,12 @@ const reserveButton = document.querySelector(".reserve-button")
 reserveButton.addEventListener("click", function (){
   clicked = !clicked
 
+  const booking = document.querySelector(".rounded-booking");
+  const airbnb = document.querySelector(".rounded-airbnb");
+  const trip = document.querySelector(".rounded-trip");
+  const decolar = document.querySelector(".rounded-decolar");
+  const floatMenu = document.querySelector(".float-buttons");
+  
   if (clicked){
     reserveButton.style.backgroundColor = "#FFF";
     reserveButton.style.height = "41px";
@@ -46,10 +52,18 @@ reserveButton.addEventListener("click", function (){
     floatMenu.style.borderRadius = "20px"
     floatMenu.style.padding = "0 2px"
 
-    const booking = document.querySelector('rounded-booking');
-    booking.classList.add('b')
+    booking.classList.add("b");
+    airbnb.classList.add("b");
+    trip.classList.add("b");
+    decolar.classList.add("b");
 
   }else {
+  
+    booking.classList.add("c");
+    airbnb.classList.add("c");
+    trip.classList.add("c");
+    decolar.classList.add("c");
+
     reserveButton.style.backgroundColor = "#446573";
     reserveButton.style.border = "none";
     reserveButton.style.width = "128px"
@@ -61,8 +75,8 @@ reserveButton.addEventListener("click", function (){
     reserveButton.textContent = "RESERVAR";
     reserveButton.style.color = "white";
 
-    const floatMenu = document.querySelector(".float-buttons");
     floatMenu.style.display = "none";
+
   }
 })
 
