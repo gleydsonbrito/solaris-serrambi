@@ -20,26 +20,63 @@ instagramContainer.addEventListener("mouseleave", function (){
   iconInstagram.src = "./assets/icon-instagram.png"
 })
 
+let clicked = false
 const reserveButton = document.querySelector(".reserve-button")
+reserveButton.addEventListener("click", function (){
+  clicked = !clicked
 
-reserveButton.addEventListener("mouseenter", function (){
-  reserveButton.style.backgroundColor = "#FFF";
-  reserveButton.style.height = "40px";
-  reserveButton.style.width = "40px";
-  reserveButton.style.padding = "0";
-  reserveButton.style.borderRadius = "50%";
-
-  reserveButton.innerHTML = "";
-
-  const arrowDown = document.createElement("img")
-  reserveButton.appendChild(arrowDown)
-  arrowDown.src = "./assets/botao-circular-preto-de-seta-para-baixo.png"
-  arrowDown.style.height = "100%"
-  arrowDown.style.width = "100%"
+  const booking = document.querySelector(".rounded-booking");
+  const airbnb = document.querySelector(".rounded-airbnb");
+  const trip = document.querySelector(".rounded-trip");
+  const decolar = document.querySelector(".rounded-decolar");
+  const floatMenu = document.querySelector(".float-buttons");
   
-  const FloatMenu = document.querySelector(".float-buttons");
-  FloatMenu.style.display = "flex"
-  FloatMenu.style.flexDirection = "column"
+  if (clicked){
+    reserveButton.style.backgroundColor = "#FFF";
+    reserveButton.style.height = "41px";
+    reserveButton.style.width = "40px";
+    reserveButton.style.padding = "0";
+    reserveButton.style.borderRadius = "50%";
+    reserveButton.innerHTML = "";
+
+    const arrowDown = document.createElement("img")
+    reserveButton.appendChild(arrowDown)
+    arrowDown.src = "./assets/botao-circular-preto-de-seta-para-baixo.png"
+    arrowDown.style.height = "100%"
+    arrowDown.style.width = "100%"
+    
+    const floatMenu = document.querySelector(".float-buttons");
+    floatMenu.style.display = "flex"
+    floatMenu.style.flexDirection = "column"
+    floatMenu.style.backgroundColor = "rgba(143, 143, 143, 0.6)"
+    floatMenu.style.borderRadius = "20px"
+    floatMenu.style.padding = "0 2px"
+
+    booking.classList.add("b");
+    airbnb.classList.add("b");
+    trip.classList.add("b");
+    decolar.classList.add("b");
+
+  }else {
   
+    booking.classList.add("c");
+    airbnb.classList.add("c");
+    trip.classList.add("c");
+    decolar.classList.add("c");
+
+    reserveButton.style.backgroundColor = "#446573";
+    reserveButton.style.border = "none";
+    reserveButton.style.width = "128px"
+    reserveButton.style.padding = "13px 28px;"
+    reserveButton.style.borderRadius = "0";
+    reserveButton.style.marginLeft = "1%";
+    reserveButton.style.marginRight = "5%";
+    reserveButton.style.trasition = ".7s"
+    reserveButton.textContent = "RESERVAR";
+    reserveButton.style.color = "white";
+
+    floatMenu.style.display = "none";
+
+  }
 })
 
